@@ -45,9 +45,7 @@ implementation
 { TEnDeCrypt }
 
 procedure TEnDeCrypt.BitBtn1Click(Sender: TObject);
-var
-  i: integer;
-  Cipher: TDCP_rijndael;
+var Cipher: TDCP_rijndael;
 begin
   if (edKey.Text <> '') then
   begin
@@ -60,9 +58,7 @@ begin
 end;
 
 procedure TEnDeCrypt.BitBtn3Click(Sender: TObject);
-var
-  i: integer;
-  Cipher: TDCP_rijndael;
+var Cipher: TDCP_rijndael;
 begin
   if (edKey.Text <> '') then
   begin
